@@ -1,0 +1,63 @@
+/*##### Defaults #####*/
+
+.row ::after{
+	display: table;
+	clear:both;
+	content: "";
+}
+
+
+
+/*####### Navbar ########*/
+div.container site-header{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin: 0;
+}
+
+div.site-header img.title-img{
+	width: 100%;
+}
+
+/*
+div.site-header img.title-img{
+	box-shadow: 2px 2px 20px 5px rgba(0,0,0,.15), -2px -2px 17px 5px rgba(0, 0, 0, .25);
+}
+*/
+
+.site-header-text{
+	position: absolute;
+	text-align: center;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	
+}
+
+/*###### Custom Styles #######*/
+
+header.authNoteHeader{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+div.authorPic{
+	max-width: 33.33%;
+}
+
+p.photoCredit{
+	text-align: center;
+}
+
+/*##### Footer ######*/
+
+div.footsy{
+	background-color: #0077ca;
+	
+}
+
+
+
