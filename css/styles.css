@@ -8,6 +8,13 @@ body{
 }
 */
 
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center
+}
+
 .row ::after{
 	display: table;
 	clear:both;
@@ -57,6 +64,13 @@ div.site-header img.title-img{
 	
 }
 
+a.cardButton{
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+	
+}
+
 /*###### Custom Styles #######*/
 
 header.authNoteHeader{
@@ -93,14 +107,18 @@ div.card.jrnlEntry{
 	height: auto;
 }
 
+div.journalEntry{
+	padding-left: 22%
+}
+
 div.container-fluid.mid-text{
 	padding: 0% 20%;
 }
 /*##### Footer ######*/
 
 #footer{
-/*	background-color: #0077ca;*/
-	background-color: #EBEBEB;
+	background-color: #0077ca;
+/*	background-color: #EBEBEB;*/
 	
 	position: fixed;
 	left: 0;
