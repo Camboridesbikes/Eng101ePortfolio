@@ -73,6 +73,10 @@ a.cardButton{
 
 /*###### Custom Styles #######*/
 
+div.card.scrollCard{
+	margin: 5px 0px;
+}
+
 header.authNoteHeader{
 	text-align: center;
 	font-size: 25px;
