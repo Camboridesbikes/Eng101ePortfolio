@@ -75,6 +75,8 @@ a.cardButton{
 
 div.card.scrollCard{
 	margin: 5px 0px;
+	
+	
 }
 
 header.authNoteHeader{
@@ -92,12 +94,22 @@ p.photoCredit{
 	text-align: center;
 }
 
-div.blogScroll{
+div.col-lg-2.blogScroll{
 	width:100%;
 	height: 700px;
 	overflow-y: scroll;
 	overflow-x: hidden;
-/*	float: right;*/
+	float: right;
+/*	transform: translateY(-40%);*/
+	
+}
+
+@media screen and (max-width: 680px){
+	div.col-lg-2.blogScroll{
+		height: 200px;
+		transform: none;
+	}
+	
 }
 
 
